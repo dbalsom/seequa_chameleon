@@ -46,8 +46,8 @@ fp-info-cache
 
 
 # Exclude sources for reference images
-/kicad/reference_images/*.psd
-/kicad/reference_images/*.af
+/kicad/reference_images/**/*.psd
+/kicad/reference_images/**/*.af
 
 # Exclude in-progress CUPL and PALasm files
 /PAL/*.pld
@@ -55,3 +55,4 @@ fp-info-cache
 
 # Exclue raw dump logs
 /PAL/*dump*.log
+/kicad/reference_images/chameleon_front_03.jpg
