@@ -11,6 +11,11 @@ Forgoing the usual ISA expansion slots, it included a number of peripherals dire
 
 This project aims to produce schematics for the Chameleon by tracing out the motherboard in Kicad.
 
+## Requirements
+
+This project requires [KiCad version 9](https://www.kicad.org/download/).
+
+
 ## More info
 
 For more info on the Chameleon, see the excellent [seequa.org](https://seequa.org/)
