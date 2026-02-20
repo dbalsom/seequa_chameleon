@@ -1,5 +1,8 @@
 # The Seequa Chameleon
 
+![chameleon](./kicad/reference_images/chameleon_front_03.jpg)
+
+
 The Chameleon was an interesting PC clone luggable. 
 
 It had a Z80 and 8088 CPU, which could be switched between, allowing a Chameleon owner to use both MS-DOS and CP/M.
