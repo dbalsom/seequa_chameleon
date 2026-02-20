@@ -7233,7 +7233,7 @@
 		)
 		(uuid "ffec1dd9-9afe-4895-8a1c-12acb822f19c")
 	)
-	(global_label "~{RESET}"
+	(global_label "~{RESET_{BRD}}"
 		(shape input)
 		(at 30.48 101.6 180)
 		(fields_autoplaced yes)
@@ -7365,7 +7365,7 @@
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "RESET_{BRD}"
 		(shape input)
 		(at 54.61 101.6 0)
 		(fields_autoplaced yes)

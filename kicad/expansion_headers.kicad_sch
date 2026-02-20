@@ -11714,6 +11714,15 @@
 		(uuid "48fbd709-2963-4e03-a5a4-68269209c5e6")
 	)
 	(bus_entry
+		(at 31.75 161.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b26ae36-55c3-4f81-986e-f72e824ef168")
+	)
+	(bus_entry
 		(at 40.64 46.99)
 		(size 2.54 2.54)
 		(stroke
@@ -12681,6 +12690,16 @@
 		)
 		(uuid "24b4c107-4352-4d48-b06d-d9013b740ef9")
 	)
+	(wire
+		(pts
+			(xy 34.29 163.83) (xy 52.07 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25786a28-98ad-4c39-b887-ca593f9a5770")
+	)
 	(bus
 		(pts
 			(xy 40.64 26.67) (xy 189.23 26.67)
@@ -12691,16 +12710,6 @@
 			(color 0 0 194 1)
 		)
 		(uuid "261e7c9a-5eb1-4193-8cee-80b119bb0191")
-	)
-	(wire
-		(pts
-			(xy 34.29 163.83) (xy 52.07 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2677ea21-0296-4f00-b0f2-a53cae34d386")
 	)
 	(bus
 		(pts
@@ -19683,6 +19692,16 @@
 		)
 		(uuid "16dd8e62-654c-446c-93f1-d16667915755")
 	)
+	(label "CLK_{88}"
+		(at 40.64 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a977f1b-32a9-434c-8321-50c1b7daa45c")
+	)
 	(label "XA14"
 		(at 58.42 64.77 0)
 		(effects
@@ -19863,16 +19882,6 @@
 		)
 		(uuid "650e794b-1e10-40ab-8dbb-6c4902904a93")
 	)
-	(label "PCLK"
-		(at 40.64 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68d39e30-aaec-4e71-883a-7db903752f4a")
-	)
 	(label "ALE_{EXT}"
 		(at 96.52 151.13 180)
 		(effects
@@ -19993,7 +20002,7 @@
 		)
 		(uuid "87bb2ff2-5b8c-42c4-8615-a6110d4a7267")
 	)
-	(label "PCLK_{EXT}"
+	(label "CLK_{EXT}"
 		(at 96.52 163.83 180)
 		(effects
 			(font
@@ -20153,7 +20162,7 @@
 		)
 		(uuid "b15b23f8-8890-4692-a916-e1ce97e5bf0a")
 	)
-	(label "PCLK_{EXT}"
+	(label "CLK_{EXT}"
 		(at 124.46 153.67 0)
 		(effects
 			(font

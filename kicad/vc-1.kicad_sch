@@ -2696,7 +2696,7 @@
 		)
 		(uuid "ffc9f663-f513-44c5-a42c-05b4a55aa3c4")
 	)
-	(global_label "~{RESET}"
+	(global_label "~{RESET_{BRD}}"
 		(shape output)
 		(at 64.77 104.14 180)
 		(fields_autoplaced yes)

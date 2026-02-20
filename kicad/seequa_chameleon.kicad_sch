@@ -48,22 +48,16 @@
 		(uuid "073d04ba-71e2-4c6d-a18d-eb44c4453bc1")
 	)
 	(junction
-		(at 267.97 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fdbbc5f-1db7-4238-b34b-36dac80361e3")
-	)
-	(junction
 		(at 199.39 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "103fc5af-b301-4c92-b879-3308ea0a38d1")
 	)
 	(junction
-		(at 270.51 168.91)
+		(at 171.45 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13b2bec1-d932-496d-aaa0-2ed824acc442")
+		(uuid "2048f2b0-491f-4b42-aadd-3f42bacd9f94")
 	)
 	(junction
 		(at 142.24 88.9)
@@ -261,7 +255,7 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 107.95) (xy 171.45 107.95)
+			(xy 170.18 93.98) (xy 171.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -568,17 +562,6 @@
 	)
 	(bus
 		(pts
-			(xy 270.51 168.91) (xy 270.51 186.69)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 0 132 0 1)
-		)
-		(uuid "4dcde45c-2bf0-4e6c-ae6d-62f0f59825df")
-	)
-	(bus
-		(pts
 			(xy 110.49 199.39) (xy 110.49 201.93)
 		)
 		(stroke
@@ -738,17 +721,6 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 189.23) (xy 267.97 189.23)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 194 194 0 1)
-		)
-		(uuid "6ec581ff-13a3-4da1-ae4c-c15184a3dc8f")
-	)
-	(bus
-		(pts
 			(xy 162.56 71.12) (xy 173.99 71.12)
 		)
 		(stroke
@@ -778,6 +750,16 @@
 			(color 0 132 0 1)
 		)
 		(uuid "71ad7793-e71b-4401-af32-14d2a9e01e82")
+	)
+	(bus
+		(pts
+			(xy 170.18 134.62) (xy 171.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bf4774-30ca-44bb-8ef4-3110182f1bca")
 	)
 	(bus
 		(pts
@@ -846,7 +828,7 @@
 	)
 	(bus
 		(pts
-			(xy 171.45 107.95) (xy 171.45 162.56)
+			(xy 171.45 93.98) (xy 171.45 134.62)
 		)
 		(stroke
 			(width 0)
@@ -976,17 +958,6 @@
 	)
 	(bus
 		(pts
-			(xy 270.51 186.69) (xy 251.46 186.69)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 0 132 0 1)
-		)
-		(uuid "9ed1f180-946f-4edf-961e-e995605a33f1")
-	)
-	(bus
-		(pts
 			(xy 144.78 125.73) (xy 144.78 157.48)
 		)
 		(stroke
@@ -995,6 +966,16 @@
 			(color 204 102 0 1)
 		)
 		(uuid "a020ed0c-5cd3-4ecb-ab46-ab6993f24269")
+	)
+	(bus
+		(pts
+			(xy 171.45 134.62) (xy 171.45 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5df462b-0567-48b3-a3a0-b412b7162a02")
 	)
 	(bus
 		(pts
@@ -1362,17 +1343,6 @@
 			(type default)
 		)
 		(uuid "f012de00-d777-4b1a-9d75-948e3853c2f9")
-	)
-	(bus
-		(pts
-			(xy 267.97 171.45) (xy 267.97 189.23)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 194 194 0 1)
-		)
-		(uuid "f0bef063-ae64-4d6d-9cde-6f136bb51260")
 	)
 	(bus
 		(pts
@@ -32552,13 +32522,13 @@
 			)
 		)
 		(pin "TIMER_GATE_{2}" input
-			(at 152.4 147.32 180)
+			(at 168.91 116.84 90)
 			(uuid "21006261-4e5d-49f4-b575-e19bf7c76a4a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TIMER_OUT_{0}" output
@@ -32619,6 +32589,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "{IRQ}" input
+			(at 170.18 134.62 0)
+			(uuid "dc1a4bef-399b-4da4-a9ea-a4f4b1e44ef0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -33171,7 +33151,7 @@
 			)
 		)
 		(pin "{IRQ}" input
-			(at 170.18 107.95 0)
+			(at 170.18 93.98 0)
 			(uuid "d35c9605-89ce-43ca-9640-00d4608971ec")
 			(effects
 				(font
@@ -33194,80 +33174,6 @@
 			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea"
 					(page "18")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 233.68 184.15)
-		(size 17.78 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "57a18931-6cd7-4902-9b9b-28c4e8093f3c")
-		(property "Sheetname" "\"PPI\" Port B"
-			(at 233.68 183.4384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "port_b.kicad_sch"
-			(at 233.68 202.5146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PD[0..7]" input
-			(at 251.46 186.69 0)
-			(uuid "55d4088f-b28b-4c24-8b6f-1f1b6cde8404")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{~{BUS_SIGNALS}}" input
-			(at 251.46 189.23 0)
-			(uuid "61b41b3f-f35c-4350-8fd2-57fd4f5f94bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{GATE_{2}}" input
-			(at 251.46 195.58 0)
-			(uuid "8343a63e-dde9-4120-b1d7-677412983888")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "seequa_chameleon"
-				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea"
-					(page "27")
 				)
 			)
 		)
