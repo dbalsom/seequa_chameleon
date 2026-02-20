@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "seequa")(type "KiCad")(uri "${KIPRJMOD}/seequa.kicad_sym")(options "")(descr ""))
+  (lib (name "gpib")(type "KiCad")(uri "${KIPRJMOD}/gpib/gpib.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,36 @@
+Bottom left hole: -> 3/16"  ^ 3/16"
+0.1875 -> 4.7625mm
+
+11 & 9/16"s 
+
+17 & 1/8
+
+60.96 + 4.7625  = 65.7225
+368.3 - 4.7625 = 363.5375
+
+
+bottom hole span - 16 & 6/8
+16.75 * 25.4
+
+65.7225 + 425.45
+
+17.125
+
+
+top corner 60.96 x 50.8
+
+60.96 + 4.7625
+50.8 + 4.7625
+
+hole distance left edge - 307.975
+hole distance bottom edge - 425.45
+
+unscaled distance left edge - 238.027
+unscaled distance bottom edge - 327.188
+
+307.975 / 238.027 = 1.29386
+425.45 / 327.188 = 1.30032
+
+
+1.293860 / 1.30032
+scale vert: 99.50319

@@ -1,0 +1,144 @@
+(footprint "C_Seequa_Trimmer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Vishay T7-YA Single, http://www.vishay.com/docs/51015/t7.pdf")
+	(tags "Potentiometer vertical Vishay T7-YA Single")
+	(property "Reference" "REF**"
+		(at 6.470196 -0.706282 0)
+		(layer "F.SilkS")
+		(uuid "1cec358c-2047-470c-81c8-aa281b984f74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Seequa_Trimmer"
+		(at -0.04 2.21 0)
+		(layer "F.Fab")
+		(uuid "c851160f-e44a-4ec8-abbc-05b3bb2037f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69138691-4277-44f6-8ef5-2935aca04249")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Sprague-style ceramic clock trimmer; unknown make"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebbd247f-e048-42f9-9ae7-df504b859aa2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0.024241 -3.731088)
+		(end 4.524241 -3.731088)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a02618d6-fd80-47da-b425-44f2da4f1052")
+	)
+	(fp_rect
+		(start -4.533089 -8.285143)
+		(end 4.56945 0.841636)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d5956cb-47ca-4ac3-9b78-dd53039c0398")
+	)
+	(fp_line
+		(start 1.252723 -5.32297)
+		(end -1.607277 -2.46297)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f2c6e77-0183-41b2-b86e-32698b4db80a")
+	)
+	(fp_line
+		(start 1.502723 -5.07297)
+		(end -1.357277 -2.21297)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07c335df-3a04-4c88-b5fa-a631763dff9e")
+	)
+	(fp_circle
+		(center -0.04 -3.731088)
+		(end 2.01 -3.731088)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0f645227-291d-4fba-821f-d4394feb604f")
+	)
+	(fp_circle
+		(center -0.04 -3.731088)
+		(end 3.46 -3.731088)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b0476af0-4927-4b96-8c59-bbceccdd9d24")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "744ba7ec-7be6-4ca0-8203-9ea99806b2d3")
+	)
+	(pad "2" thru_hole circle
+		(at 3.769493 -3.731088)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e562341-b9b0-44ad-b1b4-2b9378f1e83d")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -7.5)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "906bb70e-6718-4745-866f-6a3be1cc84cd")
+	)
+	(embedded_fonts no)
+)

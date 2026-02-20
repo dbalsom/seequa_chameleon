@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "340530fb-69e3-45ac-88ca-794c7d5c262d")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 26.67 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d04a3a-e90d-49b1-aff6-2848fac7e7ff")
+	)
+	(bus_entry
+		(at 26.67 34.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158c6d75-1636-4d91-b310-84d83cf5b94c")
+	)
+	(bus_entry
+		(at 26.67 36.83)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a600ab-8597-4167-a631-97958fcbe181")
+	)
+	(bus_entry
+		(at 26.67 39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1c3f43-a1a8-435f-a21c-656ba7066ad4")
+	)
+	(bus_entry
+		(at 29.21 44.45)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e9ee7f-ba5c-4023-9c57-8695de9bbb79")
+	)
+	(bus
+		(pts
+			(xy 26.67 36.83) (xy 26.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3d1569-bf00-4c50-8e32-56d365469097")
+	)
+	(bus
+		(pts
+			(xy 26.67 30.48) (xy 26.67 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fdd3da-968c-4e5b-a719-0293633a99f3")
+	)
+	(bus
+		(pts
+			(xy 25.4 30.48) (xy 26.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c77ba1c-96a1-46cd-9dcf-3ec486fbbe9c")
+	)
+	(bus
+		(pts
+			(xy 26.67 39.37) (xy 26.67 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3877a95e-2fff-4b4c-bbde-58fbf5b80ef0")
+	)
+	(bus
+		(pts
+			(xy 26.67 31.75) (xy 26.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad9dda9-3152-4081-83df-f0c22b5b9de4")
+	)
+	(bus
+		(pts
+			(xy 26.67 41.91) (xy 26.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa65887-c099-4b93-a51a-e2271e23c5cb")
+	)
+	(bus
+		(pts
+			(xy 26.67 34.29) (xy 26.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29acd16-2a4d-4727-a8d7-d32a3566eb32")
+	)
+	(bus
+		(pts
+			(xy 29.21 50.8) (xy 29.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61c0807-8cfe-4fa6-aec2-911e062f71bd")
+	)
+	(bus
+		(pts
+			(xy 27.94 50.8) (xy 29.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee807dfe-15f4-464c-a429-d3f03f0b6959")
+	)
+	(hierarchical_label "{~{BUS_SIGNALS}}"
+		(shape input)
+		(at 27.94 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc74a18b-1ca4-4426-84b0-5fd0b8957d21")
+	)
+	(hierarchical_label "PD[0..7]"
+		(shape input)
+		(at 25.4 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db74b61b-204f-45c4-aeca-0c21e77e8f96")
+	)
+)
