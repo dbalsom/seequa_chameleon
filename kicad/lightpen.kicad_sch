@@ -1571,6 +1571,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 78.74) (xy 97.79 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b21e0cd-ec9b-4ee8-83d8-155c1041b92b")
+	)
+	(wire
+		(pts
 			(xy 185.42 100.33) (xy 185.42 106.68)
 		)
 		(stroke
@@ -1598,16 +1608,6 @@
 			(type default)
 		)
 		(uuid "585cc0a9-2a9b-411f-9b27-49358fd3812d")
-	)
-	(wire
-		(pts
-			(xy 97.79 78.74) (xy 97.79 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aad4bcd-96ee-4c4e-be44-f8857fbd66a6")
 	)
 	(wire
 		(pts
@@ -1711,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 86.36) (xy 144.78 86.36)
+			(xy 142.24 86.36) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1771,7 @@
 	)
 	(hierarchical_label "~{LP_STB}"
 		(shape input)
-		(at 144.78 86.36 0)
+		(at 152.4 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1889,7 +1889,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "M1"
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -2135,7 +2135,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "M1"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -2200,7 +2200,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 100.33 0)
+		(at 97.79 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2209,7 +2209,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3bd6d27-ffb4-4710-9717-29cf04357ff6")
 		(property "Reference" "#PWR042"
-			(at 97.79 106.68 0)
+			(at 97.79 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2218,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 105.41 0)
+			(at 97.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 100.33 0)
+			(at 97.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 100.33 0)
+			(at 97.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2244,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 100.33 0)
+			(at 97.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "L11"
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -2335,7 +2335,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 130.81 86.36 0)
 			(effects
 				(font
@@ -2543,7 +2543,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "I15"
 			(at 185.42 92.71 0)
 			(effects
 				(font
@@ -2552,7 +2552,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS74"
 			(at 185.42 92.71 0)
 			(effects
 				(font

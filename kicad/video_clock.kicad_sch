@@ -431,6 +431,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1214,6 +1321,12 @@
 		(uuid "88ca8071-d2a1-4015-ba06-6d5eeb47063e")
 	)
 	(junction
+		(at 194.31 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bde4eb40-1e7a-44b8-a376-eed6a46b55c5")
+	)
+	(junction
 		(at 127 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1311,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 83.82) (xy 198.12 83.82)
+			(xy 190.5 83.82) (xy 194.31 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1371,6 +1484,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 83.82) (xy 198.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49aa51e-c1d6-45e3-bcef-4341007ffe81")
+	)
+	(wire
+		(pts
 			(xy 175.26 83.82) (xy 175.26 93.98)
 		)
 		(stroke
@@ -1378,6 +1501,16 @@
 			(type default)
 		)
 		(uuid "a50adf0a-a230-42d3-ba4b-583991d95c5a")
+	)
+	(wire
+		(pts
+			(xy 194.31 77.47) (xy 194.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07b5a91-f3f1-439d-ad21-7b0e880a8c8f")
 	)
 	(wire
 		(pts
@@ -1514,7 +1647,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "E23"
 			(at 127 109.22 0)
 			(effects
 				(font
@@ -1627,7 +1760,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "F23"
 			(at 182.88 83.82 0)
 			(effects
 				(font
@@ -1636,7 +1769,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 182.88 83.82 0)
 			(effects
 				(font
@@ -1715,6 +1848,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 194.31 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5b027a-7f88-49b5-a970-c7f840f38604")
+		(property "Reference" "TP1"
+			(at 196.85 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 196.85 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ff4a999-beaa-4ed9-9a52-66b96f411ef7")
+		)
+		(instances
+			(project ""
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/77e51b0e-bae8-416e-b9d8-861e4af44b64"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS04")
 		(at 165.1 83.82 0)
 		(unit 5)
@@ -1775,7 +2029,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "F23"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -1784,7 +2038,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -1989,7 +2243,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "F23"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -1998,7 +2252,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -2139,7 +2393,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "F23"
 			(at 133.35 99.06 0)
 			(effects
 				(font
@@ -2257,7 +2511,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "E23"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -2266,7 +2520,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" "R1"
+		(property "seq_silkscreen" ""
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -2372,7 +2626,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "E23"
 			(at 163.83 93.98 0)
 			(effects
 				(font
@@ -2381,7 +2635,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" "R2"
+		(property "seq_silkscreen" ""
 			(at 163.83 93.98 0)
 			(effects
 				(font
@@ -2484,7 +2738,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
+		(property "seq_coord" "E22"
 			(at 143.51 99.06 0)
 			(effects
 				(font

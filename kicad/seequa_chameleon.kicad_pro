@@ -66,9 +66,9 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -102,7 +102,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -112,13 +112,13 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "ignore",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -725,7 +725,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -737,7 +737,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -755,13 +755,13 @@
           "group_by": false,
           "label": "seq_silkscreen",
           "name": "seq_silkscreen",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "seq_coord",
           "name": "seq_coord",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -873,7 +873,7 @@
     ],
     [
       "c01f699e-eb59-445d-8da7-05c901222dc6",
-      "Logic Unit"
+      "CPU Logic Unit"
     ],
     [
       "2c702d1f-30b6-45fd-b31a-a6a1f0a54fb1",
@@ -901,7 +901,7 @@
     ],
     [
       "89f16313-6245-42af-8016-c694e2e23168",
-      "Speaker"
+      "Speaker Connector"
     ],
     [
       "77e51b0e-bae8-416e-b9d8-861e4af44b64",
@@ -933,7 +933,7 @@
     ],
     [
       "529af5b2-e75f-4957-94fb-32f2a4d3cfdd",
-      "Keyboard Interface"
+      "Keyboard PAL"
     ],
     [
       "e6c10221-226e-4bb9-8950-6bd4385e46da",
@@ -949,7 +949,7 @@
     ],
     [
       "6d0ec0af-94fc-495b-bdb5-2169434d4ce8",
-      "IO Decoder"
+      "IO Address Decoders"
     ],
     [
       "58ae8807-579f-42bd-9591-29915205d748",
@@ -964,12 +964,20 @@
       "Parallel Port"
     ],
     [
+      "a230c14f-5e5a-4edb-90bd-48e92aa680f1",
+      "Main Registers"
+    ],
+    [
+      "e1c34bbe-db46-4591-8169-9fe16a9015a3",
+      "Palette Registers"
+    ],
+    [
       "d78d902f-7903-4223-af37-081d9b564012",
       "8274 Serial Controller"
     ],
     [
       "4c20270c-230c-4333-910a-b52e86869b74",
-      "Data Entry"
+      "Power, Ground and Filtering"
     ]
   ],
   "text_variables": {}

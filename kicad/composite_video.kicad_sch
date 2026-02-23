@@ -251,7 +251,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 170.18 78.74)
+			(xy 116.84 87.63) (xy 146.05 87.63)
 		)
 		(stroke
 			(width 0)
@@ -261,7 +261,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 76.2) (xy 165.1 88.9)
+			(xy 140.97 85.09) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -271,7 +271,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 76.2) (xy 170.18 76.2)
+			(xy 140.97 85.09) (xy 146.05 85.09)
 		)
 		(stroke
 			(width 0)
@@ -280,7 +280,7 @@
 		(uuid "a7734e4b-491b-4edd-a825-752dee686021")
 	)
 	(label "COMPOSITE_OUT"
-		(at 140.97 78.74 0)
+		(at 116.84 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -291,7 +291,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 175.26 76.2 0)
+		(at 151.13 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -299,7 +299,7 @@
 		(dnp no)
 		(uuid "1ef630fa-185c-4474-9773-9f1621c44623")
 		(property "Reference" "J10"
-			(at 177.8 76.1999 0)
+			(at 153.67 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,7 +308,7 @@
 			)
 		)
 		(property "Value" "Composite Jack"
-			(at 177.8 78.7399 0)
+			(at 153.67 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,7 +317,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 175.26 76.2 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 76.2 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +335,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 76.2 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,7 +344,7 @@
 			)
 		)
 		(property "seq_partno" ""
-			(at 175.26 76.2 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,8 +352,8 @@
 				(hide yes)
 			)
 		)
-		(property "seq_coord" ""
-			(at 175.26 76.2 0)
+		(property "seq_coord" "J33"
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +362,7 @@
 			)
 		)
 		(property "seq_silkscreen" ""
-			(at 175.26 76.2 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +371,7 @@
 			)
 		)
 		(property "seq_sharpie" ""
-			(at 175.26 76.2 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +380,7 @@
 			)
 		)
 		(property "seq_notes" ""
-			(at 175.26 76.2 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 88.9 0)
+		(at 140.97 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -414,7 +414,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f8af59c-39b6-48a1-9cfe-632ba497920b")
 		(property "Reference" "#PWR075"
-			(at 165.1 95.25 0)
+			(at 140.97 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +423,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 93.98 0)
+			(at 140.97 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 88.9 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 88.9 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 88.9 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
