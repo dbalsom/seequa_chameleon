@@ -976,6 +976,10 @@
       "8274 Serial Controller"
     ],
     [
+      "11d0bc65-a13b-4ba9-906f-79630191e84b",
+      "Serializers"
+    ],
+    [
       "4c20270c-230c-4333-910a-b52e86869b74",
       "Power, Ground and Filtering"
     ]

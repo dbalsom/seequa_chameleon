@@ -19403,6 +19403,16 @@
 	)
 	(wire
 		(pts
+			(xy 490.22 347.98) (xy 490.22 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da8611b-0c7f-4a9f-9417-11f42256ddf4")
+	)
+	(wire
+		(pts
 			(xy 49.53 156.21) (xy 49.53 158.75)
 		)
 		(stroke
@@ -20926,6 +20936,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.9 347.98) (xy 490.22 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c0c47e-3592-4778-ac90-d44f11dfc7db")
+	)
+	(wire
+		(pts
 			(xy 309.88 170.18) (xy 320.04 170.18)
 		)
 		(stroke
@@ -21324,6 +21344,16 @@
 			(type default)
 		)
 		(uuid "c2e6b868-010f-4f94-ba0f-60f9221720ea")
+	)
+	(wire
+		(pts
+			(xy 25.4 148.59) (xy 41.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c387ff59-63e6-4471-b055-f74f008786c1")
 	)
 	(wire
 		(pts
@@ -23457,7 +23487,7 @@
 		)
 		(uuid "0d5c3652-f194-4abf-8b10-f7e92101c99d")
 	)
-	(label "OPT1_B4"
+	(label "88_NMI_{EN}"
 		(at 377.19 339.09 0)
 		(effects
 			(font
@@ -24037,7 +24067,7 @@
 		)
 		(uuid "3cef6a0b-6217-450d-906e-3ff15db3078e")
 	)
-	(label "OPT1_B4"
+	(label "88_NMI_{EN}"
 		(at 251.46 295.91 180)
 		(effects
 			(font
@@ -24116,6 +24146,16 @@
 			(justify right bottom)
 		)
 		(uuid "45c46b18-c99d-41b1-9389-23cfcb544c5a")
+	)
+	(label "NMI"
+		(at 116.84 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46d165b4-e6b1-4f8a-b268-4199a35bbf6e")
 	)
 	(label "~{MEMW}"
 		(at 251.46 356.87 180)
@@ -25347,6 +25387,16 @@
 		)
 		(uuid "b26a58c5-af6c-4d76-baab-175de9272af0")
 	)
+	(label "PCLK"
+		(at 25.4 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4128cf1-b611-4bfc-a494-4e597b123549")
+	)
 	(label "XA18"
 		(at 340.36 186.69 180)
 		(effects
@@ -25417,7 +25467,7 @@
 		)
 		(uuid "b5ee01fe-0dfe-4eaa-a959-9a94bfa44a79")
 	)
-	(label "OPT1_B3"
+	(label "NMI_ON_INT"
 		(at 377.19 341.63 0)
 		(effects
 			(font
@@ -25727,7 +25777,7 @@
 		)
 		(uuid "d83f41cf-4c24-4d6b-a476-ffb6df6906b3")
 	)
-	(label "OPT1_B5"
+	(label "Z80_NMI_{EN}"
 		(at 251.46 308.61 180)
 		(effects
 			(font
@@ -25817,7 +25867,7 @@
 		)
 		(uuid "e15c3d43-d95b-47a0-bc77-50a5c235ad0b")
 	)
-	(label "OPT1_B3"
+	(label "NMI_ON_INT"
 		(at 251.46 306.07 180)
 		(effects
 			(font
@@ -26181,6 +26231,28 @@
 			)
 		)
 	)
+	(global_label "~{BRD_CK_{EN}}"
+		(shape input)
+		(at 469.9 347.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e0b7ad7-fc10-4216-8863-8de36c44ed1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 457.5628 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{IO_CH_CK}"
 		(shape input)
 		(at 377.19 349.25 180)
@@ -26313,7 +26385,7 @@
 			)
 		)
 	)
-	(global_label "OPT1_B5"
+	(global_label "Z80_NMI_{EN}"
 		(shape input)
 		(at 377.19 336.55 180)
 		(fields_autoplaced yes)
@@ -28284,6 +28356,15 @@
 			)
 		)
 		(property "seq_notes" ""
+			(at 518.16 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
 			(at 518.16 238.76 0)
 			(effects
 				(font
@@ -31052,7 +31133,9 @@
 			(at 227.584 323.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)

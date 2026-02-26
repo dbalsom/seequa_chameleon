@@ -1376,7 +1376,7 @@
 		)
 	)
 	(bus_alias "VMODE_BUS"
-		(members "HIRES_TEXT" "GRAPHICS" "~{GRAPHICS}" "BLINK_{EN}" "VRAM_{EN}"
+		(members "HIRES_TEXT" "GRAPHICS" "~{GRAPHICS}" "BLINK_{EN}" "VMEM_{EN}"
 			"HIRES_GFX"
 		)
 	)
@@ -3136,7 +3136,7 @@
 		)
 		(uuid "86ff02e4-efcc-45c4-ab4e-d8a2da597e89")
 	)
-	(label "VRAM_{EN}"
+	(label "VMEM_{EN}"
 		(at 96.52 100.33 180)
 		(effects
 			(font

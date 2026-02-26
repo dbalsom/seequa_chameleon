@@ -7643,16 +7643,6 @@
 		)
 		(uuid "0a4a55fb-0150-4252-b3ec-784b380ff9e8")
 	)
-	(label "S_BUSY"
-		(at 181.61 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d5d175b-05f4-47d6-8c1f-a7b6d18d64ff")
-	)
 	(label "~{C_INIT}"
 		(at 27.94 161.29 0)
 		(effects
@@ -7693,6 +7683,16 @@
 		)
 		(uuid "1995ed48-e2ce-435b-b431-0633a9a0ef99")
 	)
+	(label "S_BUSY"
+		(at 172.72 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a2a2056-6c6b-4fbd-b88c-5bb152b6529c")
+	)
 	(label "PD5"
 		(at 111.76 93.98 0)
 		(effects
@@ -7732,16 +7732,6 @@
 			(justify right bottom)
 		)
 		(uuid "2d0f85fa-f694-4793-b978-b1c88955108b")
-	)
-	(label "S_SELECT_IN"
-		(at 181.61 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2daf5164-17c2-46b3-9892-b79027b28aec")
 	)
 	(label "S_SELECT_IN"
 		(at 234.95 107.95 180)
@@ -7933,6 +7923,16 @@
 		)
 		(uuid "74045fa6-6986-4e26-9b62-5343a0f9d0ad")
 	)
+	(label "S_PAPER_OUT"
+		(at 172.72 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c290374-9922-43d6-9ae7-16f6002b9cdc")
+	)
 	(label "XAT0"
 		(at 52.07 62.23 0)
 		(effects
@@ -8074,14 +8074,14 @@
 		(uuid "c33e1d00-d9ac-43da-99e8-7b0a48244890")
 	)
 	(label "S_ACK"
-		(at 181.61 39.37 0)
+		(at 172.72 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c998e83c-ac76-40e0-8fcd-60765c292249")
+		(uuid "c543f4fc-df32-4812-b063-9e3e91bcb0f9")
 	)
 	(label "PD3"
 		(at 228.6 46.99 180)
@@ -8102,16 +8102,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd754e8c-e9f5-4f6b-8674-55c89a67076f")
-	)
-	(label "S_PAPER_OUT"
-		(at 181.61 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d20e662f-6fd4-4e11-8a2b-2bc14ab6fa64")
 	)
 	(label "S_ERROR"
 		(at 181.61 46.99 0)
@@ -8212,6 +8202,16 @@
 			(justify left bottom)
 		)
 		(uuid "f5559b2b-a843-47ec-b4f1-a3a51ee2a5c3")
+	)
+	(label "S_SELECT_IN"
+		(at 172.72 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc5f7c13-fc2d-44d2-8ea3-724a1c665701")
 	)
 	(global_label "~{LPT_S_ACK}"
 		(shape input)
@@ -9049,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 58.42 251.46 0)
 			(effects
 				(font
@@ -9496,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 280.67 218.44 0)
 			(effects
 				(font
@@ -9814,7 +9814,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 287.02 177.8 0)
 			(effects
 				(font
@@ -9972,7 +9972,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 285.75 198.12 0)
 			(effects
 				(font
@@ -10130,7 +10130,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 276.86 251.46 0)
 			(effects
 				(font
@@ -11092,7 +11092,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 281.94 236.22 0)
 			(effects
 				(font
@@ -11564,7 +11564,7 @@
 				(hide yes)
 			)
 		)
-		(property "seq_silkscreen" ""
+		(property "seq_silkscreen" "LS04"
 			(at 195.58 160.02 0)
 			(effects
 				(font

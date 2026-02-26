@@ -6993,7 +6993,7 @@
 		)
 		(uuid "0683f226-2a90-4623-9a3b-4e823fc2a621")
 	)
-	(text_box "Like the IBM PC, the Chameleon stores even parity bits.\n\nWhen writing, the parity bit input to the parity generator is forced to 0. The even parity result calculated from bits 0-7 is driven to data bit 8 to be stored.\n\nWhen reading, the parity bit D8 is included in the parity calculation. The parity bit should always be 1, flipping the result of the calculation to odd parity. \n\nThus an asserted EVEN_PARITY signal during a read operation may be considered a parity error.\n\n\n"
+	(text_box "Like the IBM PC, the Chameleon stores even parity bits in the 9th DRAM chip (bit D8)\n\nWhen writing, the parity bit input to the parity generator is forced to 0. The even parity result calculated from bits 0-7 is driven to data bit 8 to be stored.\n\nWhen reading, the parity bit D8 is included in the parity calculation, flipping the result of the calculation to odd parity. \n\nThus, an asserted EVEN_PARITY signal during a read operation may be considered a parity error.\n\n\n"
 		(exclude_from_sim no)
 		(at 245.11 336.55 0)
 		(size 63.5 27.94)
@@ -7245,12 +7245,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15ddf979-9023-4ae3-8532-692e90a32a18")
-	)
-	(junction
-		(at 194.31 39.37)
-		(diameter 0)
-		(color 0 194 0 1)
-		(uuid "16d431a2-117d-41b6-a03d-5663ecd26e6e")
 	)
 	(junction
 		(at 412.75 383.54)
@@ -11238,7 +11232,7 @@
 		(uuid "931a9cd9-09c7-427b-b865-f09ff43e4ac4")
 	)
 	(bus_entry
-		(at 194.31 316.23)
+		(at 194.31 321.31)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -13068,7 +13062,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 318.77) (xy 171.45 346.71)
+			(xy 171.45 323.85) (xy 171.45 346.71)
 		)
 		(stroke
 			(width 0)
@@ -14432,7 +14426,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 318.77) (xy 191.77 318.77)
+			(xy 171.45 323.85) (xy 191.77 323.85)
 		)
 		(stroke
 			(width 0)
@@ -23661,7 +23655,7 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 316.23) (xy 194.31 326.39)
+			(xy 194.31 321.31) (xy 194.31 326.39)
 		)
 		(stroke
 			(width 0.75)
@@ -24636,6 +24630,17 @@
 			(color 0 194 0 1)
 		)
 		(uuid "9b95257d-027c-448b-947f-255715f781b0")
+	)
+	(bus
+		(pts
+			(xy 194.31 316.23) (xy 194.31 321.31)
+		)
+		(stroke
+			(width 0.75)
+			(type default)
+			(color 0 194 0 1)
+		)
+		(uuid "9bc7c6a2-0c9c-4777-9c2c-1d549ebacb9d")
 	)
 	(wire
 		(pts
@@ -29933,17 +29938,6 @@
 	)
 	(bus
 		(pts
-			(xy 156.21 39.37) (xy 194.31 39.37)
-		)
-		(stroke
-			(width 0.75)
-			(type default)
-			(color 0 194 0 1)
-		)
-		(uuid "e93a06ee-e287-406a-bc83-32d47517b906")
-	)
-	(bus
-		(pts
 			(xy 279.4 72.39) (xy 279.4 74.93)
 		)
 		(stroke
@@ -34617,7 +34611,7 @@
 		(uuid "a1dd67f2-e7fd-49b6-99b3-238fcd821d62")
 	)
 	(label "MD8"
-		(at 179.07 318.77 0)
+		(at 179.07 323.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36057,7 +36051,7 @@
 		(uuid "e84b02e7-aa8d-472a-b677-af7356107678")
 	)
 	(label "MD8"
-		(at 228.6 318.77 0)
+		(at 200.66 318.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36662,17 +36656,6 @@
 			(justify right)
 		)
 		(uuid "122d7887-23a3-4227-8962-b4b6445f5e75")
-	)
-	(hierarchical_label "MD[0..8]"
-		(shape bidirectional)
-		(at 156.21 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a4a11e1-2ae7-4439-9c99-df661af455b6")
 	)
 	(hierarchical_label "XA[0..19]"
 		(shape input)
@@ -39577,13 +39560,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??Ω"
-			(at 57.912 59.69 90)
+		(property "Value" "300Ω"
+			(at 59.69 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
@@ -39649,7 +39631,16 @@
 				(hide yes)
 			)
 		)
-		(property "seq_notes" ""
+		(property "seq_notes" "Orange, Black, Brown, Gold"
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -45779,7 +45770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "??Ω"
+		(property "Value" "56Ω"
 			(at 89.408 70.612 0)
 			(effects
 				(font
@@ -45851,7 +45842,16 @@
 				(hide yes)
 			)
 		)
-		(property "seq_notes" ""
+		(property "seq_notes" "Green, Blue, Black, Gold"
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
 			(at 87.63 69.85 0)
 			(effects
 				(font

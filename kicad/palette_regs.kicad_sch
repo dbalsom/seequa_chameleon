@@ -1042,6 +1042,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Palette Entry"
+		(exclude_from_sim no)
+		(at 60.96 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f86dac24-fb16-4e4e-b4d0-17e3e4dae80d")
+	)
 	(text_box "Unlike the other video registers, the Chameleon's palette registers are memory mapped. \n\nPalette register 0 is mapped at F3400-F35FFh and palette register 1 is mapped at F3600-F37FFh. Only the lower two bits are significant, so each register repeats 128 times throughout their address space. This has some interesting implications; perhaps efficient use of string instructions to set the palette.\n\nFrom the CPU perspective, these registers are write-only. The video unit addresses them wtih C0 and C1 from the graphics serializers - in essence, they replace the CGA's traditional color MUX."
 		(exclude_from_sim no)
 		(at 43.18 26.67 0)
@@ -2130,6 +2140,168 @@
 			(type default)
 		)
 		(uuid "fb63c36c-cec4-42ee-8476-6309f02f73e4")
+	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 7.62 7.62 7.62 7.62)
+		(row_heights 3.81 3.81)
+		(cells
+			(table_cell "3"
+				(exclude_from_sim no)
+				(at 54.61 87.63 0)
+				(size 7.62 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 0 0 132 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 255 255 255 1)
+					)
+				)
+				(uuid "7cfdb805-eaa9-4552-9cb4-8d7d548db04a")
+			)
+			(table_cell "2"
+				(exclude_from_sim no)
+				(at 62.23 87.63 0)
+				(size 7.62 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 0 0 132 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 255 255 255 1)
+					)
+				)
+				(uuid "4bb6cc6d-e895-4bc9-a7cc-78826c802d0a")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 69.85 87.63 0)
+				(size 7.62 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 0 0 132 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 255 255 255 1)
+					)
+				)
+				(uuid "cae800de-1964-430f-bf8f-742acea44d07")
+			)
+			(table_cell "0"
+				(exclude_from_sim no)
+				(at 77.47 87.63 0)
+				(size 7.62 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 0 0 132 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 255 255 255 1)
+					)
+				)
+				(uuid "758913b5-f908-45ee-a453-96006315d3f7")
+			)
+			(table_cell "I"
+				(exclude_from_sim no)
+				(at 54.61 91.44 0)
+				(size 7.62 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "943b3cf8-abee-4650-a12e-21d48e574bc9")
+			)
+			(table_cell "R"
+				(exclude_from_sim no)
+				(at 62.23 91.44 0)
+				(size 7.62 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 0 0 0.15)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "55cbf1b3-b0d6-4684-a215-d922c68f009c")
+			)
+			(table_cell "G"
+				(exclude_from_sim no)
+				(at 69.85 91.44 0)
+				(size 7.62 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 0 194 0 0.15)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f2f8c281-9f05-47ac-b1dd-276b053f2409")
+			)
+			(table_cell "B"
+				(exclude_from_sim no)
+				(at 77.47 91.44 0)
+				(size 7.62 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 0 0 194 0.15)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "6f92b2c5-3dbe-4a6d-9deb-e6351bd9e386")
+			)
+		)
 	)
 	(label "PD3"
 		(at 167.64 97.79 0)

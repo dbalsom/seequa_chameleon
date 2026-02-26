@@ -16691,6 +16691,16 @@
 		)
 		(uuid "0859df37-835b-4c2f-adef-56dc797c6d36")
 	)
+	(label "D[0..7]"
+		(at 337.82 139.7 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08b609ad-a6ce-4377-8b7a-cf30c9dcc0f2")
+	)
 	(label "RA2"
 		(at 78.74 176.53 0)
 		(effects

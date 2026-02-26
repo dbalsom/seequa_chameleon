@@ -4713,10 +4713,10 @@
 		)
 		(uuid "040504c8-7222-4b1e-886c-5a4d6e157b65")
 	)
-	(text_box "This creates a clock divisor of /4."
+	(text_box "This 4-bit counter divides DCLK by 4 to produce DRAM refresh timings."
 		(exclude_from_sim no)
-		(at 194.31 208.28 0)
-		(size 38.1 5.08)
+		(at 191.77 208.28 0)
+		(size 38.1 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4734,7 +4734,7 @@
 		)
 		(uuid "4eae8382-5561-4c72-9578-c20523dd527d")
 	)
-	(text_box "Bodge wiring.\n\nSeequa added two bodge wires between the termination resistors on DMA_AD0 & DMA_AD1 and ran them over to the video unit, cutting the original XA0 and XA1 traces.\nThese net ties are used to create a new bus representing these bodge wires."
+	(text_box "Bodge wiring.\n\nSeequa added two bodge wires between the termination resistors on DMA_AD0 & DMA_AD1 and ran them over to the video unit, cutting the original XA0 and XA1 traces.\nI hsve called these new adress lines \"XAT\" or XA-terminated; additionally I have added a termination resistor for AD2 as well."
 		(exclude_from_sim no)
 		(at 321.31 77.47 0)
 		(size 48.26 20.32)
@@ -7192,7 +7192,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 91.44) (xy 292.1 91.44)
+			(xy 279.4 91.44) (xy 293.37 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9201,7 +9201,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 93.98) (xy 292.1 93.98)
+			(xy 279.4 93.98) (xy 293.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10438,7 +10438,7 @@
 	)
 	(global_label "PBUS_{DIR}"
 		(shape output)
-		(at 292.1 91.44 0)
+		(at 293.37 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10448,7 +10448,7 @@
 		)
 		(uuid "727fd080-c84e-4814-be0b-b3d8e0ff1ef4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.26 91.44 0)
+			(at 303.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10458,7 @@
 			)
 		)
 	)
-	(global_label "VRAM_{DECODE_Q}"
+	(global_label "VMEM_{DECODE_Q}"
 		(shape input)
 		(at 240.03 88.9 180)
 		(fields_autoplaced yes)
@@ -10482,7 +10482,7 @@
 	)
 	(global_label "~{PBUS_{OE}}"
 		(shape output)
-		(at 292.1 93.98 0)
+		(at 293.37 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10492,7 +10492,7 @@
 		)
 		(uuid "d7c0ca6f-b029-4780-b06b-a5ffb220a35a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.26 93.98 0)
+			(at 303.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,6 +10690,15 @@
 			)
 		)
 		(property "seq_notes" ""
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
 			(at 137.16 97.79 0)
 			(effects
 				(font
@@ -12156,6 +12165,15 @@
 				(hide yes)
 			)
 		)
+		(property "seq_port" ""
+			(at 31.75 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d5267ffd-1810-4e66-aa45-a613a2d2ea40")
 		)
@@ -12494,6 +12512,15 @@
 			)
 		)
 		(property "seq_notes" ""
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
 			(at 137.16 133.35 0)
 			(effects
 				(font
