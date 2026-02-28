@@ -16099,16 +16099,6 @@
 		)
 		(uuid "93789178-7ddb-4f7e-8058-ea6673a428b3")
 	)
-	(label "~{VM_{WR_T}}"
-		(at 80.01 252.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "941580a5-0a8c-4dbf-9a85-f63226b2d2a9")
-	)
 	(label "CC_D4"
 		(at 349.25 184.15 180)
 		(effects

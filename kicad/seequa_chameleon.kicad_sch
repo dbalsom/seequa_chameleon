@@ -702,6 +702,12 @@
 		(uuid "8402d430-3cd6-43d4-86a1-0f27030ab743")
 	)
 	(junction
+		(at 298.45 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c155f5c-a6b6-4495-8f9a-44ffa1a861a9")
+	)
+	(junction
 		(at 203.2 160.02)
 		(diameter 0)
 		(color 0 0 255 1)
@@ -1675,6 +1681,17 @@
 	)
 	(bus
 		(pts
+			(xy 298.45 170.18) (xy 347.98 170.18)
+		)
+		(stroke
+			(width 0.75)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "8cb3a328-2dce-4720-bae4-c7ace8ade0c1")
+	)
+	(bus
+		(pts
 			(xy 128.27 234.95) (xy 138.43 234.95)
 		)
 		(stroke
@@ -2045,7 +2062,7 @@
 	)
 	(bus
 		(pts
-			(xy 266.7 170.18) (xy 347.98 170.18)
+			(xy 266.7 170.18) (xy 298.45 170.18)
 		)
 		(stroke
 			(width 0.75)
@@ -2097,6 +2114,17 @@
 			(color 204 102 0 1)
 		)
 		(uuid "c68a0b89-cf7b-46c7-b012-fff5d2296787")
+	)
+	(bus
+		(pts
+			(xy 298.45 170.18) (xy 298.45 172.72)
+		)
+		(stroke
+			(width 0.75)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "c99afeba-d45e-4226-88d9-9b3ae8d08ce9")
 	)
 	(bus
 		(pts
@@ -34922,6 +34950,16 @@
 		(pin "PD[0..7]" bidirectional
 			(at 295.91 172.72 90)
 			(uuid "3e93c98a-e072-457e-a353-f17d20c3dee3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DMA}" input
+			(at 298.45 172.72 90)
+			(uuid "f0585063-5cc7-47f2-87e6-9fb6ce942078")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -9542,7 +9542,7 @@
 		)
 		(uuid "4eb2471a-b983-4f8a-a665-10f7f9bedc41")
 	)
-	(label "~{8259_{CS}}"
+	(label "~{8237_{CS}}"
 		(at 72.39 74.93 0)
 		(effects
 			(font

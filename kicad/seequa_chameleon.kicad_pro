@@ -884,6 +884,10 @@
       "ROM and NOVRAM"
     ],
     [
+      "080dedc3-d6ea-4ab5-82a9-949eb45c7960",
+      "Sync Timings"
+    ],
+    [
       "a308f48d-1c03-4054-a3cd-412839ec499d",
       "Video Unit"
     ],
@@ -936,10 +940,6 @@
       "Keyboard PAL"
     ],
     [
-      "e6c10221-226e-4bb9-8950-6bd4385e46da",
-      "Sync Timings"
-    ],
-    [
       "5c6a10f8-1bda-4b7a-9256-9b4945b781b2",
       "Peripheral Bus Buffer"
     ],
@@ -978,6 +978,18 @@
     [
       "11d0bc65-a13b-4ba9-906f-79630191e84b",
       "Serializers"
+    ],
+    [
+      "6660c40c-6c55-43f2-923c-48cd33ea50db",
+      "CRTC"
+    ],
+    [
+      "4099b27c-2a06-4300-b0e9-7c57c095788e",
+      "Address Decoders"
+    ],
+    [
+      "2e8bf7e9-79c0-4be7-aed2-07eb057ae785",
+      "Rasterization Pipeline"
     ],
     [
       "4c20270c-230c-4333-910a-b52e86869b74",

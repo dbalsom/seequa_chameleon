@@ -43809,14 +43809,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Bypass_5mm"
-			(at 382.524 393.192 0)
+		(property "Value" "0.1µF"
+			(at 376.174 388.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "seequa_footprints:C_Seequa_Bypass_Film_5mm"
@@ -43883,6 +43882,15 @@
 			)
 		)
 		(property "seq_notes" ""
+			(at 382.27 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
 			(at 382.27 391.16 0)
 			(effects
 				(font
@@ -49273,14 +49281,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Bypass_5mm"
-			(at 329.184 393.192 0)
+		(property "Value" "0.1µF"
+			(at 322.834 388.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "seequa_footprints:C_Seequa_Bypass_Film_5mm"
@@ -49347,6 +49354,15 @@
 			)
 		)
 		(property "seq_notes" ""
+			(at 328.93 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
 			(at 328.93 391.16 0)
 			(effects
 				(font
@@ -49966,14 +49982,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Bypass_5mm"
-			(at 230.124 393.192 0)
+		(property "Value" "0.1µF"
+			(at 227.838 386.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Footprint" "seequa_footprints:C_Seequa_Bypass_Film_5mm"
@@ -50048,6 +50063,15 @@
 				(hide yes)
 			)
 		)
+		(property "seq_port" ""
+			(at 229.87 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d27c5a67-b284-421b-a71e-c209f491f766")
 		)
@@ -50081,14 +50105,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Bypass_5mm"
-			(at 279.654 393.192 0)
+		(property "Value" "0.1µF"
+			(at 278.384 388.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 		(property "Footprint" "seequa_footprints:C_Seequa_Bypass_Film_5mm"
@@ -50155,6 +50178,15 @@
 			)
 		)
 		(property "seq_notes" ""
+			(at 279.4 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
 			(at 279.4 391.16 0)
 			(effects
 				(font
