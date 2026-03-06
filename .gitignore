@@ -61,3 +61,11 @@ fp-info-cache
 
 kicad/fonts/
 
+# Book output
+book/book
+
+# Archives
+*.zip
+
+# Allow BOM for RAMPlus board
+!/RAMPlus_board/*.csv

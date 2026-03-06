@@ -1,0 +1,210 @@
+(footprint "C_Seequa_Bypass_2.54mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7*2.5mm^2, Capacitor")
+	(tags "C Rect series Radial pin pitch 5.00mm length 7mm width 2.5mm Capacitor")
+	(property "Reference" "REF**"
+		(at 5.218253 -1.467756 90)
+		(layer "F.SilkS")
+		(uuid "a9b14f37-2f2d-4093-a2d1-0bf074b94da6")
+		(effects
+			(font
+				(size 1.35 1.35)
+				(thickness 0.27)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "0.1µF"
+		(at 1.358522 2.480065 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "976710a8-ce42-4321-a247-5d19cf1604cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfc01201-6e8a-4617-b362-7311a83c34bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.1uF Dipped Tantalum, 35V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3279e07a-c054-4ca4-a4a4-1514343ce334")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "seq_silkscreen" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3d34b18-fa58-4622-a893-4b5678a0f76a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "seq_notes" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d60f7135-b8b3-417e-b991-ea1ae434caf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "seq_partno" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7efe376-96b0-450a-bb5e-3cc71bed5427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.39483 -1.362572)
+		(end 3.90362 -1.362195)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19c0ddd1-8137-45f5-960b-d083a6b052e8")
+	)
+	(fp_line
+		(start -1.39483 1.377428)
+		(end -1.39483 -1.362572)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40a51921-17f2-4af8-8dab-9589e7895115")
+	)
+	(fp_line
+		(start 3.90362 -1.362195)
+		(end 3.90362 1.377428)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3255fb7-20af-47c9-b2a0-a3cc810be68f")
+	)
+	(fp_line
+		(start 3.90362 1.377428)
+		(end -1.39483 1.377428)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe154cc7-eff1-4f50-a5b3-b5ea169e1d3b")
+	)
+	(fp_rect
+		(start -1.436811 -1.400874)
+		(end 3.943351 1.420363)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d93c23f2-a1b0-451c-8211-e9073598df82")
+	)
+	(fp_rect
+		(start -1.27483 -1.242572)
+		(end 3.80517 1.257428)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f628fba8-3b82-4847-8e2c-529a87522497")
+	)
+	(fp_text user "+"
+		(at -2.641364 0.501691 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06626d37-e538-4020-a3dc-542c8d254267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "cc8588e8-0de5-4480-b35c-b58e4f6d8396")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "297dadeb-3317-45c5-8dc9-3f38bac74408")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c9543fe-fbaf-4544-b202-e7e6d379db4d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P2.50mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
