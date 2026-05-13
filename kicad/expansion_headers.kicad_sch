@@ -20682,7 +20682,7 @@
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "RESET_{BRD}"
 		(shape input)
 		(at 46.99 168.91 180)
 		(fields_autoplaced yes)

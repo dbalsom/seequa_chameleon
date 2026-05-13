@@ -3185,7 +3185,7 @@
 		)
 		(uuid "705ea6f2-6529-4346-917e-b518da8d927e")
 	)
-	(label "~{VIDEO_DECODER_{CS}}"
+	(label "~{VIDEO_DECODER_{EN}}"
 		(at 140.97 95.25 180)
 		(effects
 			(font

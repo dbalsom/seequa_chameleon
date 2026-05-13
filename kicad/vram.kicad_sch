@@ -9708,6 +9708,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 252.73) (xy 139.7 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebf709b-19e8-4d0d-8453-d67da5a187f8")
+	)
+	(wire
+		(pts
 			(xy 121.92 81.28) (xy 13.97 81.28)
 		)
 		(stroke
@@ -10728,6 +10738,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 213.36) (xy 134.62 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45decbc1-a183-43a9-8ce5-02a3a27c912f")
+	)
+	(wire
+		(pts
 			(xy 251.46 157.48) (xy 208.28 157.48)
 		)
 		(stroke
@@ -11455,7 +11475,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 252.73) (xy 139.7 252.73)
+			(xy 26.67 213.36) (xy 134.62 213.36)
 		)
 		(stroke
 			(width 0)
@@ -15848,16 +15868,6 @@
 		)
 		(uuid "6e5067e7-1869-4390-8f07-4ffe7c1ff79f")
 	)
-	(label "~{VM_{RDGATE}}"
-		(at 129.54 252.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71f6919c-5538-497b-9206-24aa6e884f42")
-	)
 	(label "VMA0_{t}"
 		(at 345.44 39.37 180)
 		(effects
@@ -16937,6 +16947,17 @@
 			(justify left)
 		)
 		(uuid "09ec63be-a7d6-4393-babe-7be179e5be79")
+	)
+	(hierarchical_label "~{VM_{RDGATE}}"
+		(shape input)
+		(at 26.67 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cb74737-6d85-48c2-8913-323a39320036")
 	)
 	(hierarchical_label "CRM_{A12}"
 		(shape input)

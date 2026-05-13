@@ -6136,6 +6136,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Omitted from motherboard, so value is unknown."
+		(exclude_from_sim no)
+		(at 212.09 355.6 0)
+		(size 16.51 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cea50b41-5a79-4b36-94e5-928306a14a2b")
+	)
 	(junction
 		(at 220.98 153.67)
 		(diameter 0)
@@ -6333,6 +6355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98bc422f-8b4f-4e6d-aeb1-7513fb06b77e")
+	)
+	(junction
+		(at 171.45 339.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c8b4ed1-6909-44ae-a721-385c20a707b6")
 	)
 	(junction
 		(at 161.29 135.89)
@@ -6880,6 +6908,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 356.87) (xy 207.01 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d819a9-f73c-4f6d-8eec-c2f202074148")
+	)
+	(wire
+		(pts
 			(xy 161.29 74.93) (xy 161.29 77.47)
 		)
 		(stroke
@@ -7160,6 +7198,16 @@
 			(type default)
 		)
 		(uuid "37c7e429-2898-4861-8680-c4562810fe6d")
+	)
+	(wire
+		(pts
+			(xy 207.01 351.79) (xy 207.01 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387412e5-552f-4bb1-b148-582dc1e9e10b")
 	)
 	(wire
 		(pts
@@ -8000,6 +8048,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 339.09) (xy 171.45 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cb63eb-fecb-451f-924f-3995baa372a7")
+	)
+	(wire
+		(pts
 			(xy 212.09 227.33) (xy 226.06 227.33)
 		)
 		(stroke
@@ -8490,6 +8548,16 @@
 			(type default)
 		)
 		(uuid "eac14634-eab3-4381-90d6-0897d8879012")
+	)
+	(wire
+		(pts
+			(xy 207.01 369.57) (xy 171.45 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebad945f-291b-4090-bcae-aad961f76f61")
 	)
 	(bus
 		(pts

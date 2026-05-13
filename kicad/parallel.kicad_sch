@@ -12037,7 +12037,7 @@
 			)
 		)
 	)
-	(global_label "INT"
+	(global_label "INT_{87}"
 		(shape input)
 		(at 170.18 41.91 180)
 		(fields_autoplaced yes)

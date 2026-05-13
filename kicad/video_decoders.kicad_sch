@@ -1123,6 +1123,12 @@
 		(uuid "d5c5b150-2a44-483a-a6b3-aba87ba7341b")
 	)
 	(junction
+		(at 53.34 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d81a5862-cc5d-4311-961a-2bddafbf3485")
+	)
+	(junction
 		(at 144.78 17.78)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -1135,6 +1141,15 @@
 	(no_connect
 		(at 100.33 86.36)
 		(uuid "d51b2a3f-fcf7-418e-9021-4204989f5cce")
+	)
+	(bus_entry
+		(at 139.7 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b94cc4-6844-4ca4-b42e-641b67b4a195")
 	)
 	(bus_entry
 		(at 67.31 78.74)
@@ -1488,6 +1503,17 @@
 		)
 		(uuid "487ef640-3edb-4455-a9b8-2e9d2886fa0b")
 	)
+	(bus
+		(pts
+			(xy 139.7 62.23) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0.75)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "4ce31e02-5fa9-423a-916a-cf56a71fff2b")
+	)
 	(wire
 		(pts
 			(xy 55.88 73.66) (xy 73.66 73.66)
@@ -1729,6 +1755,17 @@
 		)
 		(uuid "9ec54bf7-ef42-49ab-b3ea-73bfa57b5624")
 	)
+	(bus
+		(pts
+			(xy 53.34 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0.75)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "a3fc916d-4dfa-4943-97a2-ab54131eadd3")
+	)
 	(wire
 		(pts
 			(xy 69.85 81.28) (xy 77.47 81.28)
@@ -1791,6 +1828,16 @@
 			(color 204 102 0 1)
 		)
 		(uuid "ac5505f9-e776-4b48-a485-657ef3f8c778")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 163.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adca5979-20e1-4159-b503-0f8247cd32a3")
 	)
 	(bus
 		(pts
@@ -1951,16 +1998,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 96.52) (xy 163.83 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f360376c-2dd6-4d50-8d46-f9b87ac3b086")
-	)
-	(wire
-		(pts
 			(xy 176.53 114.3) (xy 161.29 114.3)
 		)
 		(stroke
@@ -1990,6 +2027,16 @@
 			(justify left bottom)
 		)
 		(uuid "08e86f4e-716b-43b2-ada3-741f17a2d7f7")
+	)
+	(label "~{VIDEO_DECODER_{EN}}"
+		(at 144.78 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18a6c09c-2402-4d1d-8e58-0f3d69501c56")
 	)
 	(label "CPU_{A1}"
 		(at 156.21 81.28 0)
@@ -2153,17 +2200,6 @@
 			(justify left)
 		)
 		(uuid "2909625b-e3cc-4e10-9230-c35f4b41999d")
-	)
-	(hierarchical_label "~{VIDEO_DECODER_{EN}}"
-		(shape input)
-		(at 157.48 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e1d735a-e973-4de1-b616-f754ea95e68e")
 	)
 	(hierarchical_label "~{MODE_REG_{CS}}"
 		(shape input)

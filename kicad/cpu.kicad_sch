@@ -11195,7 +11195,7 @@
 	(bus_alias "~{BUS_SIGNALS}"
 		(members "~{MEMW}" "~{MEMR}" "~{IOR}" "~{IOW}" "~{INTA}" "~{8237_{CS}}"
 			"~{8291_{CS}}" "~{8259_{CS}}" "~{8274_{CS}}" "~{8253_{CS}}" "~{KBDPAL_{CS}}"
-			"~{AEN}" "OSC" "CLK_{88}" "ALE" "~{INTA}" "~{LPT_{CS}}" "~{VIDEO_DECODER_{CS}}"
+			"~{AEN}" "OSC" "CLK_{88}" "ALE" "~{INTA}" "~{LPT_{CS}}" "~{VIDEO_DECODER_{EN}}"
 			"~{CRTC_{CS}}" "~{DMA_PAGE_{CS}}" "~{FDC_{CS}}"
 		)
 	)
@@ -17851,16 +17851,6 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 293.37) (xy 441.96 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e277589-2dc0-4d03-a35c-efdf131620e4")
-	)
-	(wire
-		(pts
 			(xy 278.13 76.2) (xy 234.95 76.2)
 		)
 		(stroke
@@ -18114,6 +18104,16 @@
 			(type default)
 		)
 		(uuid "647a6658-461e-4311-9df9-4d9b227b1664")
+	)
+	(wire
+		(pts
+			(xy 441.96 293.37) (xy 464.82 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ad86d4-f09b-466f-8ce4-2237d69ab295")
 	)
 	(wire
 		(pts
@@ -20203,6 +20203,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "a1f3e940-f8f5-447a-b9e4-fae6caebaa50")
+	)
+	(wire
+		(pts
+			(xy 546.1 283.21) (xy 572.77 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20550a3-9730-4905-b833-0e0e7ef3728c")
 	)
 	(wire
 		(pts
@@ -24131,6 +24141,16 @@
 		)
 		(uuid "38bd28b4-ea82-46c3-8ee0-cf6ac0601797")
 	)
+	(label "Z80_NMI_{EN}"
+		(at 377.19 336.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a20dc83-cfa8-4c98-8773-b2ff709366c8")
+	)
 	(label "IRQ7"
 		(at 425.45 339.09 180)
 		(effects
@@ -24140,6 +24160,16 @@
 			(justify right bottom)
 		)
 		(uuid "3a35e9b0-d6e0-4721-95db-16126ae9f0d8")
+	)
+	(label "~{88_PRIMARY}"
+		(at 452.12 293.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bd4b95f-abea-4ddc-b267-c37e233c0ea2")
 	)
 	(label "~{INTA}"
 		(at 251.46 369.57 180)
@@ -24160,6 +24190,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c14315b-ea6e-4fee-8bf6-6b9e49f2df6e")
+	)
+	(label "~{Z_BUSREQ}"
+		(at 572.77 283.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c251110-9bdc-4d80-b68f-67b5dabc22f5")
 	)
 	(label "XA1"
 		(at 222.25 48.26 0)
@@ -24731,7 +24771,7 @@
 		)
 		(uuid "72d9535a-5a44-4a19-82cd-06d9b11f086f")
 	)
-	(label "INT"
+	(label "INT_{87}"
 		(at 175.26 321.31 180)
 		(effects
 			(font
@@ -25571,7 +25611,7 @@
 		)
 		(uuid "b5ee01fe-0dfe-4eaa-a959-9a94bfa44a79")
 	)
-	(label "NMI_ON_INT"
+	(label "87_NMI_{EN}"
 		(at 377.19 341.63 0)
 		(effects
 			(font
@@ -25981,7 +26021,7 @@
 		)
 		(uuid "e15c3d43-d95b-47a0-bc77-50a5c235ad0b")
 	)
-	(label "NMI_ON_INT"
+	(label "87_NMI_{EN}"
 		(at 251.46 306.07 180)
 		(effects
 			(font
@@ -26509,28 +26549,6 @@
 			)
 		)
 	)
-	(global_label "Z80_NMI_{EN}"
-		(shape input)
-		(at 377.19 336.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8de61ba3-5367-489d-b6bb-5e056bfda356")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 370.3948 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PARITY_CK"
 		(shape input)
 		(at 510.54 335.28 0)
@@ -26663,7 +26681,7 @@
 			)
 		)
 	)
-	(global_label "INT"
+	(global_label "INT_{87}"
 		(shape input)
 		(at 377.19 346.71 180)
 		(fields_autoplaced yes)

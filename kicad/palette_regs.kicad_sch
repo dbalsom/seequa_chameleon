@@ -2323,7 +2323,7 @@
 		)
 		(uuid "2b50d889-dde0-41be-80c9-57b53e15a1f2")
 	)
-	(label "CLUT2"
+	(label "C_{r}"
 		(at 204.47 95.25 0)
 		(effects
 			(font
@@ -2333,7 +2333,7 @@
 		)
 		(uuid "6e8afb81-3d54-43ef-bf5b-96b63e646278")
 	)
-	(label "CLUT3"
+	(label "C_{i}"
 		(at 147.32 97.79 0)
 		(effects
 			(font
@@ -2353,7 +2353,7 @@
 		)
 		(uuid "7b863f7a-345f-4ff3-a775-0c4b7dc5c78a")
 	)
-	(label "CLUT1"
+	(label "C_{g}"
 		(at 204.47 92.71 0)
 		(effects
 			(font
@@ -2393,7 +2393,7 @@
 		)
 		(uuid "90215714-0771-4fac-ae49-30c7dd6e97a7")
 	)
-	(label "CLUT3"
+	(label "C_{i}"
 		(at 204.47 97.79 0)
 		(effects
 			(font
@@ -2403,7 +2403,7 @@
 		)
 		(uuid "9118fadd-5771-4a84-b636-7acff08fd3ec")
 	)
-	(label "CLUT2"
+	(label "C_{r}"
 		(at 147.32 95.25 0)
 		(effects
 			(font
@@ -2413,7 +2413,7 @@
 		)
 		(uuid "929b5a22-4ee2-4810-9de5-46a28c85c043")
 	)
-	(label "CLUT1"
+	(label "C_{g}"
 		(at 147.32 92.71 0)
 		(effects
 			(font
@@ -2443,7 +2443,7 @@
 		)
 		(uuid "a895bb60-6021-4d70-9b20-d1ba60c6260c")
 	)
-	(label "CLUT0"
+	(label "C_{b}"
 		(at 204.47 90.17 0)
 		(effects
 			(font
@@ -2463,7 +2463,7 @@
 		)
 		(uuid "c991e859-bf62-43cc-bf99-23b9fc070193")
 	)
-	(label "CLUT0"
+	(label "C_{b}"
 		(at 147.32 90.17 0)
 		(effects
 			(font
@@ -2504,7 +2504,7 @@
 		)
 		(uuid "08b354ca-b257-462a-bdae-d2a85cc0eb91")
 	)
-	(hierarchical_label "CLUT[0..3]"
+	(hierarchical_label "{CLUT}"
 		(shape input)
 		(at 227.33 73.66 0)
 		(effects
