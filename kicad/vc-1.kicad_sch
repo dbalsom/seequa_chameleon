@@ -3344,7 +3344,7 @@
 			(uuid "d81fa999-0492-4a2a-8d08-46264ffeeff9")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/69c5b6da-2f45-47da-8a23-feedac251a1f"
 					(reference "#PWR065")
 					(unit 1)

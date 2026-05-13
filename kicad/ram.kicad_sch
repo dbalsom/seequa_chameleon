@@ -40896,7 +40896,7 @@
 			(uuid "7996815c-00a5-4a54-a6c7-177d72647a5d")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/2c702d1f-30b6-45fd-b31a-a6a1f0a54fb1"
 					(reference "#PWR017")
 					(unit 1)
@@ -50079,7 +50079,7 @@
 			(uuid "ba25dff1-4a3a-46df-8f55-3c697bcdeb7e")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/2c702d1f-30b6-45fd-b31a-a6a1f0a54fb1"
 					(reference "C7")
 					(unit 1)
@@ -50383,7 +50383,7 @@
 			(uuid "fa1299f1-2eaa-4830-b07c-da8bbfca8f53")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/2c702d1f-30b6-45fd-b31a-a6a1f0a54fb1"
 					(reference "#PWR016")
 					(unit 1)

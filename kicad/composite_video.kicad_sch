@@ -1795,6 +1795,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_1_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2565,6 +2851,12 @@
 		(uuid "c45d16ac-0927-43ed-8251-4cef6b34099e")
 	)
 	(junction
+		(at 360.68 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a904da2-6a16-47c2-bce1-53ffb3182a6a")
+	)
+	(junction
 		(at 200.66 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2595,10 +2887,28 @@
 		(uuid "3bc17f43-7aa0-4a17-bd5e-75b8176ec025")
 	)
 	(junction
+		(at 339.09 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41966f75-5ed4-4798-bb25-ad5587393d04")
+	)
+	(junction
 		(at 29.21 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a7b0d30-e770-45cc-bfb7-b18390a0f099")
+	)
+	(junction
+		(at 339.09 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a08cc17-3183-4433-8b78-64378c197770")
+	)
+	(junction
+		(at 349.25 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89487a27-f586-4389-89b8-3ddc5b1cdd32")
 	)
 	(junction
 		(at 59.69 34.29)
@@ -2611,6 +2921,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2473a76-3300-4700-a589-9fd8d2be6ec8")
+	)
+	(junction
+		(at 360.68 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abe52c95-16ad-488f-9627-7d530ff4d0e6")
 	)
 	(junction
 		(at 154.94 95.25)
@@ -2694,6 +3010,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 41.91) (xy 339.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f577b2-b6f1-4e13-91f3-7efa5561d7c9")
+	)
+	(wire
+		(pts
 			(xy 77.47 44.45) (xy 77.47 59.69)
 		)
 		(stroke
@@ -2735,6 +3061,26 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 48.26) (xy 360.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cec79bb-fdf8-4923-88cb-7a5494a3c152")
+	)
+	(wire
+		(pts
+			(xy 261.62 60.96) (xy 274.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c74da0-dd4c-46a0-9fbf-09e0c396e384")
+	)
+	(wire
+		(pts
 			(xy 248.92 17.78) (xy 248.92 50.8)
 		)
 		(stroke
@@ -2743,6 +3089,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "1120f8b0-8722-4471-8d14-225d8a9d3a2c")
+	)
+	(wire
+		(pts
+			(xy 322.58 74.93) (xy 349.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148103a6-2551-41bf-8695-835d8b99d6c7")
 	)
 	(wire
 		(pts
@@ -2796,6 +3152,26 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 48.26) (xy 360.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6220fc-e59f-4d84-9303-4a2aa7d1c1e3")
+	)
+	(wire
+		(pts
+			(xy 339.09 59.69) (xy 339.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267c661b-de5c-4ed4-ae9c-34c86c36e9a8")
+	)
+	(wire
+		(pts
 			(xy 97.79 59.69) (xy 97.79 73.66)
 		)
 		(stroke
@@ -2803,6 +3179,16 @@
 			(type default)
 		)
 		(uuid "2784e373-e24a-4ec2-aa89-d9d0fe2755b0")
+	)
+	(wire
+		(pts
+			(xy 261.62 58.42) (xy 274.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0fddf5-877b-4a71-8a95-dfadcc820b4e")
 	)
 	(wire
 		(pts
@@ -2846,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 41.91) (xy 365.76 41.91)
+			(xy 308.61 41.91) (xy 339.09 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2883,6 +3269,16 @@
 			(type default)
 		)
 		(uuid "41bc87fd-bdaa-40f8-b87a-f126da4897e6")
+	)
+	(wire
+		(pts
+			(xy 279.4 58.42) (xy 287.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421ebd08-a0a9-4fda-ad78-b833508a3eee")
 	)
 	(wire
 		(pts
@@ -3099,6 +3495,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 68.58) (xy 360.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71855f5f-34b0-43cf-802f-da70fb76f1d7")
+	)
+	(wire
+		(pts
 			(xy 59.69 48.26) (xy 59.69 77.47)
 		)
 		(stroke
@@ -3139,6 +3545,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 68.58) (xy 349.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7985d50a-fc8b-442e-9322-d549423f3dc7")
+	)
+	(wire
+		(pts
 			(xy 203.2 60.96) (xy 236.22 60.96)
 		)
 		(stroke
@@ -3159,13 +3575,23 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 39.37) (xy 360.68 52.07)
+			(xy 360.68 39.37) (xy 360.68 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "805437e0-1f2f-41d2-ac6a-09be17343c12")
+	)
+	(wire
+		(pts
+			(xy 349.25 74.93) (xy 349.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bf2302-13e5-4685-a986-5356b54252cb")
 	)
 	(wire
 		(pts
@@ -3250,6 +3676,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 68.58) (xy 339.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b545e9-d34e-4699-a8f1-354ec6a51f4e")
+	)
+	(wire
+		(pts
 			(xy 165.1 81.28) (xy 200.66 81.28)
 		)
 		(stroke
@@ -3287,6 +3723,16 @@
 			(type default)
 		)
 		(uuid "a364bed8-a1b7-4942-b933-1ec34b8021f2")
+	)
+	(wire
+		(pts
+			(xy 279.4 60.96) (xy 287.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d0ab72-d4d8-4e77-8712-c32954f446d7")
 	)
 	(wire
 		(pts
@@ -3370,6 +3816,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 76.2) (xy 274.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3516cb6-84ce-45ad-9c1a-d702459f2904")
+	)
+	(wire
+		(pts
 			(xy 95.25 36.83) (xy 114.3 36.83)
 		)
 		(stroke
@@ -3409,6 +3865,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "b9145482-d6cb-4319-8bef-7475cc5b8bf1")
+	)
+	(wire
+		(pts
+			(xy 261.62 73.66) (xy 274.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d9d886-33d0-4593-ab90-bb90a68cfe77")
 	)
 	(wire
 		(pts
@@ -3482,7 +3948,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 76.2) (xy 236.22 76.2)
+			(xy 356.87 68.58) (xy 360.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b9f563-c09e-4f38-8972-80a2376f36e4")
+	)
+	(wire
+		(pts
+			(xy 218.44 76.2) (xy 236.22 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3513,6 +3989,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 68.58) (xy 351.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d670c1c7-7854-4dda-97a8-134ff87fb7b6")
+	)
+	(wire
+		(pts
 			(xy 29.21 31.75) (xy 39.37 31.75)
 		)
 		(stroke
@@ -3532,6 +4018,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "d7630152-aa41-4f81-96eb-53d9d02d1a58")
+	)
+	(wire
+		(pts
+			(xy 339.09 48.26) (xy 339.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ea68a3-b6c2-4584-bdd5-4e9fbf0e56fc")
 	)
 	(wire
 		(pts
@@ -3582,6 +4078,16 @@
 			(type default)
 		)
 		(uuid "e8945218-b09c-430c-9aad-a7cce48a10b7")
+	)
+	(wire
+		(pts
+			(xy 339.09 48.26) (xy 349.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaef0ddd-894a-447f-b735-e58890a29a9f")
 	)
 	(wire
 		(pts
@@ -3636,6 +4142,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 41.91) (xy 365.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce9d988-3e1d-41e0-b2a4-286e70c7aa1f")
+	)
+	(wire
+		(pts
 			(xy 59.69 48.26) (xy 87.63 48.26)
 		)
 		(stroke
@@ -3643,16 +4159,6 @@
 			(type default)
 		)
 		(uuid "fec5dc61-7c76-4228-b688-89e7c88e3614")
-	)
-	(label "CMP_{i}"
-		(at 218.44 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1667591f-3f0a-4047-a159-a989a5bc8618")
 	)
 	(label "CYAN_{CLK}"
 		(at 133.35 73.66 0)
@@ -3695,7 +4201,7 @@
 		(uuid "2d457add-4cb9-4288-9abc-039de9e4830c")
 	)
 	(label "COMPOSITE_OUT"
-		(at 336.55 41.91 0)
+		(at 308.61 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3855,7 +4361,7 @@
 		(uuid "d333c3d4-47bf-444c-bf32-d6b41a824494")
 	)
 	(label "~{HSYNC_{SERR}}"
-		(at 222.25 76.2 0)
+		(at 218.44 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3893,6 +4399,28 @@
 			(justify right bottom)
 		)
 		(uuid "fa003bdc-14e7-45ad-bf14-1401cc149288")
+	)
+	(global_label "VIDEO_OUT"
+		(shape input)
+		(at 322.58 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1421ab30-e692-4c33-9cca-7b83aae4cfb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.667 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "FRONT_PORCH"
 		(shape input)
@@ -4321,6 +4849,121 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 276.86 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1daf346e-d3d3-4ddc-858f-2a911a541a90")
+		(property "Reference" "R57"
+			(at 275.336 73.66 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 282.448 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 276.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "beed67f4-263e-4dab-be06-107fa154f89c")
+		)
+		(pin "1"
+			(uuid "ffbfe23c-8d52-4740-b411-2ab85bd0e5d8")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 370.84 39.37 0)
 		(unit 1)
@@ -4436,7 +5079,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 360.68 52.07 0)
+		(at 360.68 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4445,7 +5088,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f8af59c-39b6-48a1-9cfe-632ba497920b")
 		(property "Reference" "#PWR075"
-			(at 360.68 58.42 0)
+			(at 360.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +5097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 360.68 57.15 0)
+			(at 360.68 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +5105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 52.07 0)
+			(at 360.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +5114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 52.07 0)
+			(at 360.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +5123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 52.07 0)
+			(at 360.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +5135,7 @@
 			(uuid "a5153e94-d0e9-4d78-8f3e-1167428a7631")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
 					(reference "#PWR075")
 					(unit 1)
@@ -4644,6 +5287,236 @@
 			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
 					(reference "U139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 342.9 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31f18c20-3bc7-4756-bc98-dd83d57f5795")
+		(property "Reference" "R63"
+			(at 341.376 68.58 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 344.17 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 342.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 342.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 342.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 342.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 342.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 342.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 342.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f78f3cdf-95f1-47a8-8508-0646a4fe6356")
+		)
+		(pin "1"
+			(uuid "88be78a2-3673-455f-a22d-ce3a27ce1308")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 276.86 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3414b8a9-e22c-4aae-bc3c-325e71560031")
+		(property "Reference" "R76"
+			(at 275.336 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 282.448 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 276.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 276.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 276.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 276.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 276.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 276.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 276.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b04f917-6ca3-4248-a9ff-6890d4f7ce04")
+		)
+		(pin "1"
+			(uuid "7cc8b183-fac9-4021-baec-ea341f8f550f")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -4952,6 +5825,121 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 276.86 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42323374-0835-4a0e-97d5-03d737eed65a")
+		(property "Reference" "R54"
+			(at 275.336 76.2 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 282.448 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 276.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac0b1346-4e6a-463a-89f6-9a06a368d585")
+		)
+		(pin "1"
+			(uuid "a9ab0646-bd98-402a-b52e-dd0942c03218")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS240")
 		(at 248.92 71.12 0)
 		(unit 1)
@@ -5121,6 +6109,121 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 276.86 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b49d370-3325-4f7b-98ae-9564edc4dc23")
+		(property "Reference" "R75"
+			(at 275.336 45.72 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 282.448 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 276.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "226575c1-5607-4084-85e2-aa58fb864409")
+		)
+		(pin "1"
+			(uuid "2555b44f-a4ef-467b-9b04-cc5ead05b238")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS86")
 		(at 63.5 120.65 0)
 		(unit 4)
@@ -5264,6 +6367,121 @@
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
 					(reference "U139")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 276.86 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "752e10e3-06c1-40c3-9f60-e002173d7413")
+		(property "Reference" "R55"
+			(at 275.336 58.42 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 282.448 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae593cd8-cce8-4064-9a59-3521249fb099")
+		)
+		(pin "1"
+			(uuid "2828e399-b2a2-4f92-bff5-21ba2a4f2fe1")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R55")
+					(unit 1)
 				)
 			)
 		)
@@ -5610,6 +6828,236 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 351.79 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a7958c6-db0b-4223-a30d-3a3ddc3a98ef")
+		(property "Reference" "R64"
+			(at 350.266 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 357.378 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 351.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 351.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 351.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 351.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 351.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 351.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 351.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1a15a0d-51bc-4b63-8f89-01deecba27fa")
+		)
+		(pin "1"
+			(uuid "3807167f-9e56-4085-acce-fc9aa96d8dde")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 354.33 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "add308bf-1f78-449a-80d1-d40422eb6df5")
+		(property "Reference" "R62"
+			(at 352.806 68.58 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 358.394 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 354.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 354.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 354.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 354.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 354.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 354.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 354.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92a9bd8c-1f8a-4e91-9fc0-b5f6d1094aad")
+		)
+		(pin "1"
+			(uuid "65500b62-44e5-4d4d-a1b7-8cbaef32956e")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 248.92 92.71 0)
 		(unit 1)
@@ -5676,6 +7124,245 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 276.86 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d46ca4af-8c66-41fa-9ba6-820be8ccf4c1")
+		(property "Reference" "R56"
+			(at 275.336 60.96 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "??Ω"
+			(at 282.448 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "seequa_footprints:R_Seequa_Resistor"
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" "F4"
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" ""
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d47a3ca8-7236-49c8-a813-1c31222b7369")
+		)
+		(pin "1"
+			(uuid "fa0ccdc2-0765-4951-9a4c-0746cfa6dea7")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 339.09 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4db29bf-a133-4eda-98ff-42ea56dd0843")
+		(property "Reference" "C108"
+			(at 342.9 53.7209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 342.9 56.2609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.0552 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized electrolytic capacitor"
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_partno" ""
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_coord" ""
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_silkscreen" ""
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_sharpie" ""
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_notes" "Orange cylinder, polarized electrolytic"
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "seq_port" ""
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca4da461-af59-489c-94ac-82a7eedadedb")
+		)
+		(pin "1"
+			(uuid "40249268-f410-4e19-8aac-cf453e528400")
+		)
+		(instances
+			(project "seequa_chameleon"
+				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
+					(reference "C108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 29.21 17.78 0)
 		(unit 1)
@@ -5732,7 +7419,7 @@
 			(uuid "54b95b1a-bd5f-4d8d-88ea-8691b61d23ae")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/6c3cc00a-807f-4e5d-bb09-31650ce89f64"
 					(reference "#PWR019")
 					(unit 1)

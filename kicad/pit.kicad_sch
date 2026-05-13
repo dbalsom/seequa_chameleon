@@ -1757,7 +1757,7 @@
 			(uuid "8c7586c2-ea05-418d-abd2-1d5e561ca292")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/0203c7e7-82e4-4c95-9a68-c0e0285c3292"
 					(reference "#PWR038")
 					(unit 1)
@@ -1976,7 +1976,7 @@
 			(uuid "606785f0-9e55-45da-a223-3ae7f3c9fcb3")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/0203c7e7-82e4-4c95-9a68-c0e0285c3292"
 					(reference "#PWR083")
 					(unit 1)

@@ -1960,7 +1960,7 @@
 			(uuid "0ff4a999-beaa-4ed9-9a52-66b96f411ef7")
 		)
 		(instances
-			(project ""
+			(project "seequa_chameleon"
 				(path "/ae890d4c-6a02-4621-80ce-7ef4317218ea/a308f48d-1c03-4054-a3cd-412839ec499d/77e51b0e-bae8-416e-b9d8-861e4af44b64"
 					(reference "TP1")
 					(unit 1)

@@ -3475,7 +3475,7 @@
 		(uuid "f6d74034-940d-40b6-bc28-19b1d1bc99e0")
 	)
 	(global_label "VIDEO_OUT"
-		(shape output)
+		(shape input)
 		(at 168.91 137.16 180)
 		(fields_autoplaced yes)
 		(effects
